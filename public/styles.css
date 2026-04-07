@@ -46,10 +46,49 @@ body{
 .lf-label{font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:6px;margin-top:14px}
 .lf-input{width:100%;padding:12px 15px;border:1.5px solid var(--border);border-radius:10px;font-size:14px;font-family:'Outfit',sans-serif;color:var(--text);background:var(--bg);outline:none;transition:var(--tr)}
 .lf-input:focus{border-color:var(--wine);box-shadow:0 0 0 3px rgba(107,24,50,.12)}
-.login-btn{width:100%;padding:13px;background:linear-gradient(135deg,var(--wine),var(--wine-m));color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:600;font-family:'Outfit',sans-serif;cursor:pointer;transition:var(--tr);margin-top:18px}
-.login-btn:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(107,24,50,.35)}
-.login-btn-sec{width:100%;padding:11px;background:transparent;color:var(--wine);border:1.5px solid var(--border);border-radius:10px;font-size:13px;font-weight:500;font-family:'Outfit',sans-serif;cursor:pointer;transition:var(--tr);margin-top:8px}
-.login-btn-sec:hover{background:var(--wine-l)}
+.login-btn{
+  width:100%;
+  padding:13px;
+  background:linear-gradient(135deg,#9FBF1F,#7A9918);
+  color:#000;
+  border:none;
+  border-radius:12px;
+  font-size:14px;
+  font-weight:600;
+  font-family:'Outfit',sans-serif;
+  cursor:pointer;
+  transition:all .25s ease;
+  margin-top:18px;
+  box-shadow:0 6px 20px rgba(159,191,31,.35);
+  letter-spacing:.3px;
+}
+
+.login-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 28px rgba(159,191,31,.55);
+  background:linear-gradient(135deg,#B7D62A,#8AAA1C);
+}
+
+/* Botón secundario */
+.login-btn-sec{
+  width:100%;
+  padding:11px;
+  background:transparent;
+  color:#9FBF1F;
+  border:1.5px solid #9FBF1F;
+  border-radius:10px;
+  font-size:13px;
+  font-weight:500;
+  font-family:'Outfit',sans-serif;
+  cursor:pointer;
+  transition:all .25s ease;
+  margin-top:8px;
+}
+
+.login-btn-sec:hover{
+  background:#9FBF1F;
+  color:#000;
+}
 
 /* ── APP ── */
 .hidden{display:none!important}
