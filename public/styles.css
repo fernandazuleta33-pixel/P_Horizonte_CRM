@@ -12,10 +12,10 @@
   --r:14px;--rs:9px;--tr:all .2s ease;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+body{font-family:'Outfit',sans-serif;background:linear-gradient(180deg,#F6F7F2 60%,#EAF0C0 100%);
 
 /* ── LOGIN ── */
-#auth{min-height:100vh;background:linear-gradient(135deg,var(--wine-d) 0%,var(--wine) 55%,#9B2555 100%);display:flex;align-items:center;justify-content:center;padding:20px}
+#auth{min-height:100vh;background:linear-gradient(135deg,var(--wine-d) 0%,var(--wine) 55%,#9FBF1F 100%);display:flex;align-items:center;justify-content:center;padding:20px}
 .login-box{background:#fff;border-radius:24px;padding:48px 40px;width:100%;max-width:420px;box-shadow:0 24px 80px rgba(0,0,0,.3)}
 .login-logo{text-align:center;margin-bottom:28px}.login-logo img{height:56px;object-fit:contain}
 .login-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:500;color:var(--wine);text-align:center;margin-bottom:4px}
@@ -34,7 +34,7 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-
 #app{display:flex;height:100vh;overflow:hidden}
 
 /* ── SIDEBAR ── */
-.sidebar{width:248px;min-width:248px;background:linear-gradient(180deg,var(--wine-d) 0%,var(--wine) 100%);display:flex;flex-direction:column;z-index:10}
+.sidebar{width:248px;min-width:248px;background:linear-gradient(180deg,#000 0%,#9FBF1F 100%);
 .s-logo{padding:18px 16px 14px;border-bottom:1px solid rgba(255,255,255,.12)}
 .s-logo img{height:42px;object-fit:contain;max-width:180px;filter:brightness(0) invert(1)}
 .s-nav{flex:1;padding:14px 10px;overflow-y:auto}
