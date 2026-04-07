@@ -15,7 +15,14 @@
 body{font-family:'Outfit',sans-serif;background:linear-gradient(180deg,#F6F7F2 60%,#EAF0C0 100%);
 
 /* ── LOGIN ── */
-#auth{background:linear-gradient(135deg,#0E0E0E 0%, #1A1A1A 60%, #9FBF1F 100%);
+#auth{
+  min-height:100vh;
+  background:linear-gradient(135deg,var(--wine-d) 0%,var(--wine) 55%,#9B2555 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
 .login-box{background:#ffffff;box-shadow:0 30px 80px rgba(0,0,0,.35);
 .login-logo{text-align:center;margin-bottom:28px}.login-logo img{height:56px;object-fit:contain}
 .login-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:500;color:var(--wine);text-align:center;margin-bottom:4px}
