@@ -12,7 +12,13 @@
   --r:14px;--rs:9px;--tr:all .2s ease;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+body{
+  font-family:'Outfit',sans-serif;
+  background:linear-gradient(135deg,#0E0E0E 0%, #1A1A1A 60%, #9FBF1F 100%);
+  color:var(--text);
+  min-height:100vh;
+  overflow-x:hidden;
+}
 
 /* ── LOGIN ── */
 #auth{min-height:100vh;background:linear-gradient(135deg,#000 0%,var(--wine) 55%,#9FBF1F 100%);display:flex;align-items:center;justify-content:center;padding:20px}
